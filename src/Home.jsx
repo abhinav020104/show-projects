@@ -48,10 +48,10 @@ const Home = ()=>{
                 </div>
                 
                 <div className="details-container">
-                    <p>Burger King</p>
+                    <p>Fruit Cider</p>
                     <img src="/img/fruitCider_animation.png" alt="" />
                     <button onClick={()=>{
-                        window.location.href = 'https://www.figma.com/proto/nw0KcoIp9eWgSxTy7Zy2fR/PlanCover?page-id=410%3A18&node-id=470-3&viewport=-121%2C-348%2C0.68&t=aKq5uQTyq9NPsNUk-1&scaling=min-zoom&content-scaling=fixed'
+                        window.location.href = 'https://www.figma.com/proto/UBFXzagvPDsBjm2bm7pzxg/Fruit-Cider?page-id=0%3A1&node-id=30-254&starting-point-node-id=30%3A254&t=w1t74XxOKXyrqZPZ-1'
                     }}>Live Demo</button>
                 </div>
             </div>
