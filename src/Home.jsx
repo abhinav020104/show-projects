@@ -18,6 +18,13 @@ const Home = ()=>{
                     }}>Live Demo</button>
                 </div>
                 <div className="details-container">
+                    <p>Chamberly App</p>
+                    <img src="/img/Chamberly_cover.png" alt="" />
+                    <button onClick={()=>{
+                        window.location.href = 'https://www.figma.com/proto/nw0KcoIp9eWgSxTy7Zy2fR/PlanCover?page-id=302%3A1514&node-id=542-187&viewport=10985%2C10330%2C0.75&t=g9ECyf54SfnSzMoI-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=542%3A159'
+                    }}>Live Demo</button>
+                </div>
+                <div className="details-container">
                     <p>Sales App</p>
                     <img src="/img/sales_app.png" alt="" />
                     <button onClick={()=>{
@@ -55,13 +62,6 @@ const Home = ()=>{
                     }}>Live Demo</button>
                 </div>
 
-                <div className="details-container">
-                    <p>Chamberly App</p>
-                    <img src="/img/Chamberly_cover.png" alt="" />
-                    <button onClick={()=>{
-                        window.location.href = 'https://www.figma.com/proto/nw0KcoIp9eWgSxTy7Zy2fR/PlanCover?page-id=302%3A1514&node-id=542-187&viewport=10985%2C10330%2C0.75&t=g9ECyf54SfnSzMoI-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=542%3A159'
-                    }}>Live Demo</button>
-                </div>
 
                 
             </div>
