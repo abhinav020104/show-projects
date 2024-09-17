@@ -96,8 +96,8 @@
 }
 
 .intro-video-container video{
-  width: 90dvw;
-  height: 100vh;
+  width:500px;
+  height: 500px;
   /* object-fit: cover; */
 }
 
