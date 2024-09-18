@@ -182,9 +182,9 @@
   }
 }
 @media (max-width:500px) {
-  *{
+  /* *{
     overflow-y: hidden;
-  }
+  } */
   .details-container button{
     font-size: .8rem;
     font-weight: 500;
@@ -197,6 +197,9 @@
     width: 90%;
     height: 90%;
   }
+  .intro-video-container {
+    overflow-y: hidden;
+  }
   .intro-video-container video{
     /* width: 300px; */
     /* height: 300px; */
@@ -204,5 +207,6 @@
     width: 100vw;
     height: 100vh;
     transform: scale(1);
+    overflow-y: hidden;
   }
 }
