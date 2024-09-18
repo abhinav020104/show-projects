@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 360) {
+      if (window.innerWidth < 500) {
         setVideoUrl('./img/splash_video_portrait.mp4'); // Replace with your mobile video URL
       }else {
         setVideoUrl('./img/splash_video_landscape.mp4'); // Replace with your landscape video URL
