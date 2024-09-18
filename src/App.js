@@ -1,12 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Home from './Home';
 
 function App() {
   const [showHome, setShowHome] = useState(false);
+  const [videoUrl, setVideoUrl] = useState('./img/splash_video_landscape.mp4');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 360) {
+        setVideoUrl('./img/splash_video_portrait.mp4'); // Replace with your mobile video URL
+      }else {
+        setVideoUrl('./img/splash_video_landscape.mp4'); // Replace with your landscape video URL
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const handleVideoEnd = () => {
-    setShowHome(true); 
+    setShowHome(true);
   };
 
   return (
@@ -14,17 +32,15 @@ function App() {
       {showHome ? (
         <Home />
       ) : (
-       <div className='intro-video-container'>
+        <div className='intro-video-container'>
           <video
-            src="./img/Splash_Video.mp4"
+            src={videoUrl}
             className="intro-video"
-            // width={"500px"}
-            // height={"500px"}
             autoPlay
             muted
             onEnded={handleVideoEnd}
           />
-       </div>
+        </div>
       )}
     </div>
   );
