@@ -10,29 +10,28 @@ function App() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 500) {
-        setVideoUrl('./img/splash_video_portrait.mp4'); // Use portrait video for mobile
+        setVideoUrl('./img/splash_video_portrait.mp4'); 
       } else {
-        setVideoUrl('./img/splash_video_landscape.mp4'); // Use landscape video for larger screens
+        setVideoUrl('./img/splash_video_landscape.mp4');
       }
     };
 
-    // Set video URL initially and on resize
     handleResize();
     window.addEventListener('resize', handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize); // Cleanup listener
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
   const handleLoadedMetadata = () => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 2; // Set playback speed
+      videoRef.current.playbackRate = 2; 
     }
   };
 
   const handleVideoEnd = () => {
-    setShowHome(true); // Navigate to Home after the video ends
+    setShowHome(true); 
   };
 
   return (
@@ -48,7 +47,7 @@ function App() {
             autoPlay
             muted
             onEnded={handleVideoEnd}
-            onLoadedMetadata={handleLoadedMetadata} // Set playback speed after metadata is loaded
+            onLoadedMetadata={handleLoadedMetadata} 
           />
         </div>
       )}
