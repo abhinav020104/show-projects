@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   color: #414141;
+  /* background: #E8C0B4; */
   /* background-color: aliceblue; */
 
 }
@@ -35,12 +36,12 @@
 
 .main {
   width: 100%;
-  min-height: 100vh; /* Ensure it covers at least the full viewport height */
-  background-size: 100%; /* Adjust this to zoom out the image */
-  background-position: top center; /* Align the image as needed */
+  min-height: 100vh; 
+  background-size: 100% 100%; 
+  background-position: top center; 
   background-image: url("../public/img/Back_to_School_Objects_edited.jpg");
-  background-repeat: no-repeat; /* Prevent background repetition */
-  background-attachment: fixed; /* Keep the background fixed while scrolling */
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
 .wrapper{
