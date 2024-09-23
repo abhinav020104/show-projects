@@ -61,9 +61,6 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/UBFXzagvPDsBjm2bm7pzxg/Fruit-Cider?page-id=0%3A1&node-id=30-254&starting-point-node-id=30%3A254&t=w1t74XxOKXyrqZPZ-1'
                     }}>Live Demo</button>
                 </div>
-
-
-                
             </div>
         </div>
     )
