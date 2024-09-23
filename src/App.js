@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Home from './Home';
-
+import { useRef } from 'react';
 function App() {
   const [showHome, setShowHome] = useState(false);
   const [videoUrl, setVideoUrl] = useState('./img/splash_video_landscape.mp4');
-
+  const videoRef = useRef(null)
   useEffect(() => {
     const handleResize = () => {
+      if (videoRef.current) {
+        videoRef.current.playbackRate = 1.5;
+      }
       if (window.innerWidth < 500) {
         setVideoUrl('./img/splash_video_portrait.mp4'); // Replace with your mobile video URL
       }else {
@@ -34,6 +37,7 @@ function App() {
       ) : (
         <div className='intro-video-container'>
           <video
+            ref={videoRef}
             src={videoUrl}
             className="intro-video"
             autoPlay
