@@ -9,7 +9,7 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/bNg3fDkuyiBeMFcuCUcN8M/Portfolio?page-id=429%3A2&node-id=431-16037&viewport=2496%2C292%2C0.24&t=aqNVXMcPbR9HBbgG-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=431%3A16037'
                     }}>Live Demo</button>
                 </div>
-                
+
                 <div className="details-container">
                     <p>Plant Website</p>
                     <img src="/img/Plant_website.png" alt="" />
@@ -36,6 +36,14 @@ const Home = ()=>{
                     }}>Live Demo</button>
                 </div>
 
+                <div className="details-container coffee">
+                    <p>Coffee App</p>
+                    <img src="/img/coffee_app.png" alt=""  />
+                    <button onClick={()=>{
+                        window.location.href = 'https://www.figma.com/proto/1rG5SOpAPaVk3wZT0Vwpmd/Untitled?page-id=196%3A522&node-id=196-523&viewport=767%2C417%2C0.72&t=rOOHDHkdrv7ntgBS-1&scaling=min-zoom&content-scaling=fixed'
+                    }}>Live Demo</button>
+                </div>
+                
                 <div className="details-container">
                     <p>Sales App</p>
                     <img src="/img/sales_app.png" alt="" />
@@ -45,13 +53,6 @@ const Home = ()=>{
                     }}>Live Demo</button>
                 </div>
 
-                <div className="details-container coffee">
-                    <p>Coffee App</p>
-                    <img src="/img/coffee_app.png" alt=""  />
-                    <button onClick={()=>{
-                        window.location.href = 'https://www.figma.com/proto/1rG5SOpAPaVk3wZT0Vwpmd/Untitled?page-id=196%3A522&node-id=196-523&viewport=767%2C417%2C0.72&t=rOOHDHkdrv7ntgBS-1&scaling=min-zoom&content-scaling=fixed'
-                    }}>Live Demo</button>
-                </div>
 
                 <div className="details-container">
                     <p>Imagen</p>
