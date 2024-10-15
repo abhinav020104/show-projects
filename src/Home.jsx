@@ -9,6 +9,7 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/bNg3fDkuyiBeMFcuCUcN8M/Portfolio?page-id=429%3A2&node-id=431-16037&viewport=2496%2C292%2C0.24&t=aqNVXMcPbR9HBbgG-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=431%3A16037'
                     }}>Live Demo</button>
                 </div>
+                
                 <div className="details-container">
                     <p>Plant Website</p>
                     <img src="/img/Plant_website.png" alt="" />
