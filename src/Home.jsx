@@ -17,6 +17,8 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/3qFBSoHmG2SwsfU5OVkbtO/Duranz-Official?page-id=295%3A8&node-id=295-9&viewport=776%2C1783%2C0.43&t=p3jNameh0j8qWHNY-1&scaling=min-zoom&content-scaling=fixed'
                     }}>Live Demo</button>
                 </div>
+
+
                 <div className="details-container">
                     <p>Chamberly App</p>
                     <img src="/img/Chamberly_cover.png" alt="" />
@@ -24,6 +26,15 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/nw0KcoIp9eWgSxTy7Zy2fR/PlanCover?page-id=302%3A1514&node-id=542-187&viewport=10985%2C10330%2C0.75&t=g9ECyf54SfnSzMoI-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=542%3A159'
                     }}>Live Demo</button>
                 </div>
+
+                <div className="details-container">
+                    <p>Food Delivery App</p>
+                    <img src="/img/FoodDelivery_App.jpg" alt="" />
+                    <button onClick={()=>{
+                        window.location.href = 'https://www.figma.com/proto/mWC2m7zOb2ZET7uLQjwHMC/Cryptonet-Technologies?page-id=302%3A2&node-id=302-1300&node-type=frame&viewport=-1615%2C1637%2C0.82&t=RlbdK2ViRytZPtRn-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=302%3A1300'
+                    }}>Live Demo</button>
+                </div>
+
                 <div className="details-container">
                     <p>Sales App</p>
                     <img src="/img/sales_app.png" alt="" />
@@ -32,6 +43,7 @@ const Home = ()=>{
                     window.location.href = 'https://www.figma.com/proto/1rG5SOpAPaVk3wZT0Vwpmd/Untitled?page-id=196%3A325&node-id=196-326&viewport=819%2C423%2C0.46&t=nM0DzVqLzNikImeI-1&scaling=min-zoom&content-scaling=fixed'
                     }}>Live Demo</button>
                 </div>
+
                 <div className="details-container coffee">
                     <p>Coffee App</p>
                     <img src="/img/coffee_app.png" alt=""  />
@@ -39,6 +51,7 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/1rG5SOpAPaVk3wZT0Vwpmd/Untitled?page-id=196%3A522&node-id=196-523&viewport=767%2C417%2C0.72&t=rOOHDHkdrv7ntgBS-1&scaling=min-zoom&content-scaling=fixed'
                     }}>Live Demo</button>
                 </div>
+
                 <div className="details-container">
                     <p>Imagen</p>
                     <img src="/img/Imagen_landingPage.png" alt="" />
@@ -46,6 +59,15 @@ const Home = ()=>{
                         window.location.href = 'https://www.figma.com/proto/ryn0xjKHHf1Xyq3dZPAGxc/website_banner?page-id=0%3A1&node-id=3-2&t=ldA8beE1v7mVq7ck-1'
                     }}>Live Demo</button>
                 </div>
+
+                <div className="details-container">
+                    <p>Fruit Cider</p>
+                    <img src="/img/fruitCider_animation.png" alt="" />
+                    <button onClick={()=>{
+                        window.location.href = 'https://www.figma.com/proto/UBFXzagvPDsBjm2bm7pzxg/Fruit-Cider?page-id=0%3A1&node-id=30-254&starting-point-node-id=30%3A254&t=w1t74XxOKXyrqZPZ-1'
+                    }}>Live Demo</button>
+                </div>
+                
                 <div className="details-container">
                     <p>Burger King</p>
                     <img src="/img/burgerKing_landingPage.png" alt="" />
@@ -54,13 +76,7 @@ const Home = ()=>{
                     }}>Live Demo</button>
                 </div>
                 
-                <div className="details-container">
-                    <p>Fruit Cider</p>
-                    <img src="/img/fruitCider_animation.png" alt="" />
-                    <button onClick={()=>{
-                        window.location.href = 'https://www.figma.com/proto/UBFXzagvPDsBjm2bm7pzxg/Fruit-Cider?page-id=0%3A1&node-id=30-254&starting-point-node-id=30%3A254&t=w1t74XxOKXyrqZPZ-1'
-                    }}>Live Demo</button>
-                </div>
+
             </div>
         </div>
     )

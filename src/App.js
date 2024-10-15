@@ -22,7 +22,7 @@ function App() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, []); 
 
   const handleLoadedMetadata = () => {
     if (videoRef.current) {
