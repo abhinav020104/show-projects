@@ -74,7 +74,7 @@ const Home = ()=>{
                     <p>Burger King</p>
                     <img src="/img/burgerKing_landingPage.png" alt="" />
                     <button onClick={()=>{
-                        window.location.href = 'https://www.figma.com/proto/nw0KcoIp9eWgSxTy7Zy2fR/PlanCover?page-id=410%3A18&node-id=470-3&viewport=-121%2C-348%2C0.68&t=aKq5uQTyq9NPsNUk-1&scaling=min-zoom&content-scaling=fixed'
+                        window.location.href = 'https://www.figma.com/proto/gwAL920bdwv5ef3JURFVvx/Untitled?page-id=0%3A1&node-id=1-2&viewport=1733%2C1539%2C0.61&t=UyLgDZ8rnniS4gcE-1&scaling=min-zoom&content-scaling=fixed'
                     }}>Live Demo</button>
                 </div>
                 
