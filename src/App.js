@@ -44,6 +44,7 @@ function App() {
 
   const handleVideoEnd = () => {
     setShowHome(true); 
+    window.scrollTo(0, 0);
   };
 
   return (
