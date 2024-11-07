@@ -9,7 +9,7 @@ function App() {
   const videoRef = useRef(null);
 
   // Initialize scrollYProgress with useScroll and apply a spring animation for smoother effect
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = showHome ? useScroll() : { scrollYProgress: 0 };
   const progress = useSpring(scrollYProgress, { stiffness: 100, damping: 30 });
 
   useEffect(() => {
