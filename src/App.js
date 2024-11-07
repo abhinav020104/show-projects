@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import Home from './Home';
-
+import {motion , useScroll}  from "framer-motion";
 function App() {
-  const [showHome, setShowHome] = useState(false);
+  const [showHome, setShowHome] = useState(true);
   const [videoUrl, setVideoUrl] = useState('./img/splash_video_landscape.mp4');
   const videoRef = useRef(null);
-
+  const {scrollYProgress} = useScroll(); 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 500) {
@@ -37,7 +37,12 @@ function App() {
   return (
     <div className="App">
       {showHome ? (
-        <Home />
+        <div>
+         <motion.div 
+         className='progress-bar'
+         style = {{scaleX:scrollYProgress}}></motion.div>
+         <Home />
+        </div>
       ) : (
         <div className='intro-video-container'>
           <video
