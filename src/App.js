@@ -6,8 +6,6 @@ function App() {
   const [showHome, setShowHome] = useState(false);
   const [videoUrl, setVideoUrl] = useState('./img/splash_video_landscape.mp4');
   const videoRef = useRef(null);
-
-
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 500) {
