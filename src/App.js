@@ -26,7 +26,7 @@ function App() {
 
   const handleLoadedMetadata = () => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 2; 
+      videoRef.current.playbackRate = 1.5; 
     }
   };
 
